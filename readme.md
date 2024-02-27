@@ -30,8 +30,8 @@ python version > 3.10。更低版本不支持 match 语法。无额外依赖。
 python convert.py --code wubi86
 python convert.py --code wubi98
 ```
-输出码表文件位于 `dict` 目录下。
-数据源：[zhmoji](https://github.com/yuhangch/zhmoji)。见 `emoji.json`  
+输出码表文件位于 `dict` 目录下。  
+数据源：[zhmoji](https://github.com/yuhangch/zhmoji)，见 `emoji.json`。  
 五笔编码文件位于 `codecs` 目录下。 
 
 ## 相关数据
