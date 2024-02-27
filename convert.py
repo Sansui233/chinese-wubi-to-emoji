@@ -102,7 +102,7 @@ def convert(codec_engine, output_path: str):
 
 
 def wubi86_function():
-    print("\n[Info] 输出 emoji_wubi98 版...")
+    print("\n[Info] 输出 emoji_wubi86 版...")
     wubi = wubi86()
     output_path = os.path.join(d_dict, f_emoji_wubi86)
     convert(wubi, output_path)
