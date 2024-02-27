@@ -1,4 +1,4 @@
-# 📚 中文五笔 to emoji 词库
+# 📚 emoji 的中文五笔码表
 
 用于给输入法打汉字时联想 emoji 😊
 
@@ -9,14 +9,14 @@
 
 🔎 **预览**
 
-![词库使用效果预览](./media/2024-02-28-00-11-20.png)
+![码表使用效果预览](./media/2024-02-28-00-11-20.png)
 
 
 ## 👐 使用方式
 
-导入 `dict` 下对应的词库文件至输入法的用户词典。
+导入 `dict` 下对应的码表文件至输入法的用户词典。
 
-词典格式： `编码<Tab>emoji`
+码表格式： `编码<Tab>emoji`
 
 可能需要自己写输入法兼容的格式转换。部分输入法需要设置词频，建议权重在3码往后。
 
@@ -24,13 +24,13 @@
 
 python version > 3.10。更低版本不支持 match 语法。无额外依赖。
 
-在命令行运行以下代码以生成对应词库。
+在命令行运行以下代码以生成对应码表。
 
 ```
 python convert.py --code wubi86
 python convert.py --code wubi98
 ```
-输出词典文件位于 `dict` 目录下。
+输出码表文件位于 `dict` 目录下。
 数据源：[zhmoji](https://github.com/yuhangch/zhmoji)。见 `emoji.json`  
 五笔编码文件位于 `codecs` 目录下。 
 
