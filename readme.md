@@ -1,4 +1,4 @@
-# 📚 五笔 to emoji 词典
+# 📚 中文五笔 to emoji 词库
 
 用于给输入法打汉字时联想 emoji 😊
 
@@ -37,7 +37,9 @@ python convert.py --code wubi98
 ## 相关数据
 
 - [zhmoji](https://github.com/yuhangch/zhmoji)
+- [五笔输入法86版](http://86wb.ysepan.com/)
 - [98五笔资源库](http://98wb.ysepan.com/)
+- [Emoji大全](https://www.emojiall.com/zh-hans)
 
 ## License
 
